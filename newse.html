@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+    <title>Personalize You Newse</title>
+</head>
+
+<body class="body">
+    <!-- nav seciton starts -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="/index.html"><img src="./assets/tickerAI-logo 1.png" alt="./assets/tickerAI-logo 1.png"
+                        class="logo w-12 h-auto"></a>
+                <span class="navbar-text">A Mark Cuban Company <br>
+                    AI-based Financial Market News Aggregator</span>
+            </div>
+            <div class="navbar-links">
+                <button class="navbar-btn">Personalizev Newse</button>
+                <span class="navbar-icon">IK</span>
+                <i class="ri-moon-line dark-mode" onclick="handleDarkMode()"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- nav section ends -->
+    <!-- Personalize seciton starts  -->
+    <section class="personalize container mx-auto mt-5">
+        <h2 class="heading header">Personolize your news</h2>
+        <div class="market w-full h-[80vh] flex flex-col items-center justify-center ">
+            <div
+                class="market-body bg-[#fffcfc] dark:bg-gray-700 w-[300px] sm:w-[480px] h-auto: border border-[#DDE2E5]">
+                <h3 class="capitalize font-semibold text-[24px] text-center py-3">select your market</h3>
+                <div class="market-items flex flex-col gap-4 items-center text-center h-full p-4">
+                    <span class="items">stocks</span>
+                    <span class="items border border-[#5677AC]">Crypto</span>
+                    <span class="items">Economy & Business</span>
+                    <span class="items">Commodities | Forex</span>
+                    <span class="w-full px-[26px] py-[15px] bg-transparent">Fixed Income</span>
+                    <button class=" px-[26px] py-[15px] w-full bg-[#5677AC] rounded-md text-white">continue</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Personalize seciton ends -->
+    <script src="script.js"></script>
+</body>
+
+</html>

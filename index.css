@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .body{
+        @apply font-body dark:bg-gray-900 dark:text-white bg-white text-black duration-300;
+    }
+  .navbar {
+    @apply w-full h-auto bg-white dark:bg-gray-900 dark:text-white text-black sm:h-20 sticky top-0;
+  }
+  .navbar-container {
+    @apply container mx-auto flex justify-between items-center py-3 my-2 h-full;
+  }
+  .navbar-brand {
+    @apply flex items-center gap-2 md:gap-3;
+  }
+  .navbar-text{
+    @apply text-[13px] leading-3 tracking-tight hidden sm:block;
+  }
+  .navbar-links{
+    @apply flex items-center gap-1 sm:gap-2 md:gap-3;
+  }
+  .navbar-btn{
+    @apply px-2 py-1 sm:px-4 sm:py-2 md:px-6 md:py-3 bg-[#5677AC] text-white font-semibold rounded-md text-xs sm:text-sm md:text-base;
+  }
+  .navbar-icon{
+     @apply size-[30px] pt-[5px] pl-[10px] md:size-[45px] md:pt-[10px] md:pl-[15px] rounded-full text-[14px] md:text-[19px] font-extrabold bg-[#5677AC26] text-[#5677AC] cursor-pointer;
+  }
+  .dark-mode{
+    @apply text-xl md:text-3xl dark:text-gray-300 text-gray-800 cursor-pointer;
+  }
+  .card-container {
+    @apply flex flex-col gap-3 mt-3;
+  }
+  .card {
+    @apply flex flex-col gap-2 sm:flex-row items-center border border-[#DDE2E5] p-3 hover:scale-105 duration-300;
+  }
+  .text-content {
+    @apply flex flex-col gap-3;
+  }
+  .badge-line {
+    @apply space-x-2;
+  }
+  .badge {
+    @apply text-white bg-[#333] text-[13px] p-1 rounded;
+  }
+  .card-title {
+    @apply font-semibold text-[18px];
+  }
+  .card-description {
+    @apply dark:text-gray-400 text-[#616161] text-base leading-3;
+  }
+  .date-author {
+    @apply text-[14px];
+  }
+  .author {
+    @apply capitalize;
+  }
+  .name {
+    @apply uppercase text-[#5677AC] font-semibold;
+  }
+  .heading {
+    @apply font-semibold text-base sm:text-[24px] text-[#333] dark:text-white capitalize;
+  }
+  .header {
+    @apply uppercase border-b-2 sm:border-b-4 border-[#333333] pb-2 dark:border-white;
+  }
+  .featured-badge {
+    @apply text-[14px] px-[6px] py-[3px] bg-[#5677AC26] uppercase;
+  }
+  .newse {
+    @apply text-center flex flex-col items-center w-[250px] mx-auto gap-2 hover:scale-105 duration-300;
+  }
+  .newse-p {
+    @apply font-[500] text-base leading-5;
+  }
+  .side-menu-heading {
+    @apply capitalize text-base font-[500];
+  }
+  .items{
+    @apply bg-[#E6EBF3] dark:bg-slate-500 rounded-[100px] w-[95%] px-[26px] py-[15px] hover:scale-105 duration-300; 
+  }
+}

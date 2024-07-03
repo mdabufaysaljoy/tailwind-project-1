@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Ticker AI</title>
+</head>
+
+<body class="body">
+    <!-- nav seciton starts -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="/index.html"><img src="./assets/tickerAI-logo 1.png" alt="./assets/tickerAI-logo 1.png"
+                        class="logo w-12 h-auto"></a>
+                <span class="navbar-text">A Mark Cuban Company <br>
+                    AI-based Financial Market News Aggregator</span>
+            </div>
+            <div class="navbar-links">
+                <a href="/newse.html" class="navbar-btn">Personalizev Newse</a>
+                <span class="navbar-icon">IK</span>
+                <i class="ri-moon-line dark-mode" onclick="handleDarkMode()"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- nav section ends -->
+    <!-- main section starts  -->
+    <main style="background-image: url(./assets/pexels-photo-8370752.jpeg);"
+        class="heroSecion w-full h-[350px] bg-cover bg-no-repeat bg-center bg-main flex flex-col justify-center items-center gap-5">
+        <div class="flex flex-col justify-center  items-center gap-5">
+            <img src='./assets/image 2.png' alt='./assets/image 2.png' />
+            <div class="search w-[300px] sm:w-[600px] text-center relative">
+                <i
+                    class="ri-search-2-line absolute text-2xl top-1/2 left-5 sm:left-8 -translate-y-1/2 text-[#5677AC]"></i>
+                <input type="text" placeholder="Search any market topic..."
+                    class="w-[90%]  border border-[#DDE2E5] outline-none py-3 ps-10 pr-2 rounded">
+            </div>
+            <span class="text-[#F3F3F3] text-[14px]   -mt-2">There are 6 articles available for your
+                preferences</span>
+        </div>
+    </main>
+    <!-- main seciton ends -->
+    <!-- newse section starts -->
+    <section class="newseSection mt-3 mb-20 pt-4">
+        <div class="container mx-auto grid grid-cols-12 gap-4">
+            <div class="allNewseSection col-span-12 lg:col-span-9">
+                <div class="mb-10">
+                    <div class="heading header flex justify-between">
+                        <p>All Newse</p>
+                        <div>
+                            <span class="font-normal text-base capitalize">Filter by:</span>
+                            <select class="py-1 px-2 outline-none bg-transparent">
+                                <option value="Stocks">Stocks</option>
+                                <option value="Stocks">Stocks</option>
+                                <option value="Stocks">Stocks</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <div class="heading">
+                            individual stocks
+                        </div>
+                        <div class="card-container ">
+                            <div class="card">
+                                <img src='./assets/Rectangle 6.png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                                <div class="text-content ">
+                                    <div class="badge-line ">
+                                        <span class="badge ">Dow
+                                            jones</span>
+                                        <span class="badge ">Nasdaq</span>
+                                        <span class="badge ">S & P
+                                            500</span>
+                                    </div>
+                                    <div class="card-title ">Nzd/usd forex technical analysis -
+                                        traders
+                                        will be monitoring fed for future rate hike clues</div>
+                                    <p class="card-description ">Amet minim mollit
+                                        non
+                                        deserunt ullamco est sit aliqua dolor
+                                        do amet sint. Velit officia consequat duis enim velit
+                                        mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                    <div class="date-author">
+                                        <span class="date ">06 September 2022</span> • <span class="author"> by
+                                            <span class="name ">Shouvik
+                                                Nath</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src='./assets/Rectangle 7.png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                                <div class="text-content ">
+                                    <div class="badge-line ">
+                                        <span class="badge ">Dow
+                                            jones</span>
+                                        <span class="badge ">Nasdaq</span>
+                                        <span class="badge ">S & P
+                                            500</span>
+                                    </div>
+                                    <div class="card-title ">Rupee inches 5 paise higher to
+                                        77.99
+                                        against us dollar in early trade</div>
+                                    <p class="card-description ">Amet minim mollit
+                                        non
+                                        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                                        enim velit
+                                        mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                    <div class="date-author">
+                                        <span class="date ">06 September 2022</span> • <span class="author"> by
+                                            <span class="name ">Amado</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src='./assets/Rectangle 8.png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                                <div class="text-content ">
+                                    <div class="badge-line ">
+                                        <span class="badge ">wall
+                                            street</span>
+                                        <span class="badge ">Analyst
+                                            coverage</span>
+                                    </div>
+                                    <div class="card-title ">Rupee inches 5 paise higher to
+                                        77.99
+                                        against us dollar in early trade</div>
+                                    <p class="card-description ">Amet minim mollit
+                                        non
+                                        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                                        enim velit
+                                        mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                    <div class="date-author">
+                                        <span class="date ">06 September 2022</span> • <span class="author"> by
+                                            <span class="name ">Amado</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stock-sector mb-10">
+                    <h5 class="heading mb-3">Stock sectors</h5>
+                    <div class="card-container ">
+                        <div class="card">
+                            <img src='./assets/Rectangle 6 (1).png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                            <div class="text-content ">
+                                <div class="badge-line ">
+                                    <span class="badge ">Dow jones</span>
+                                    <span class="badge ">Nasdaq</span>
+                                    <span class="badge ">S & P 500</span>
+                                </div>
+                                <div class="card-title ">Nzd/usd forex technical analysis -
+                                    traders
+                                    will be monitoring fed for future rate hike clues</div>
+                                <p class="card-description ">Amet minim mollit non
+                                    deserunt ullamco est sit aliqua dolor
+                                    do amet sint. Velit officia consequat duis enim velit
+                                    mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                <div class="date-author">
+                                    <span class="date ">06 September 2022</span> • <span class="author">
+                                        by
+                                        <span class="name ">Shouvik
+                                            Nath</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src='./assets/Rectangle 7 (1).png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                            <div class="text-content ">
+                                <div class="badge-line ">
+                                    <span class="badge ">Dow jones</span>
+                                    <span class="badge ">Nasdaq</span>
+                                    <span class="badge ">S & P 500</span>
+                                </div>
+                                <div class="card-title ">Rupee inches 5 paise higher to 77.99
+                                    against us dollar in early trade</div>
+                                <p class="card-description ">Amet minim mollit non
+                                    deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                                    enim velit
+                                    mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                <div class="date-author">
+                                    <span class="date ">06 September 2022</span> • <span class="author">
+                                        by
+                                        <span class="name ">Amado</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stock-market-topics my-10 sm:my-20">
+                    <div class="heading">
+                        Stock Market Topics
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src='./assets/Rectangle 6 (2).png' alt='./assets/Rectangle 6 (1).png' class="pr-3" />
+                            <div class="text-content ">
+                                <div class="badge-line ">
+                                    <span class="badge ">Dow jones</span>
+                                    <span class="badge ">Nasdaq</span>
+                                    <span class="badge ">S & P 500</span>
+                                </div>
+                                <div class="card-title ">Rupee inches 5 paise higher to 77.99
+                                    against us dollar in early trade</div>
+                                <p class="card-description ">Amet minim mollit non
+                                    deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                                    enim velit
+                                    mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                                <div class="date-author">
+                                    <span class="date ">06 September 2022</span> • <span class="author">
+                                        by
+                                        <span class="name ">Amado</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- featured section  -->
+            <div class="featuredSection col-span-12 lg:col-span-3">
+                <div class="heading header">
+                    featured</div>
+                <div class="mt-5 lg:mt-10">
+                    <div class="heading capitalize font-semibold text-[24px] text-[#333]">
+                        Daily Rundowns
+                    </div>
+                    <div class="side-menu w-full h-auto border mt-3 p-4">
+                        <div class="earings">
+                            <h5 class="side-menu-heading">earings: </h5>
+                            <div class="span-group">
+                                <span class="featured-badge">Csan</span>
+                                <span class="featured-badge">Alya</span>
+                                <span class="featured-badge">Gato</span>
+                                <span class="featured-badge">css</span>
+                                <span class="featured-badge">VZLA</span>
+                                <span class="featured-badge">mfh</span>
+                            </div>
+                        </div>
+                        <div class="movers mt-3">
+                            <h5 class="side-menu-heading">movers: </h5>
+                            <div class="span-group">
+                                <span class="featured-badge">rev</span>
+                                <span class="featured-badge">petv</span>
+                                <span class="featured-badge">rytm</span>
+                                <span class="featured-badge">srrk</span>
+                                <span class="featured-badge">vera</span>
+                                <span class="featured-badge">kzia</span>
+                                <span class="featured-badge">sym</span>
+                            </div>
+                        </div>
+                        <div class="technicals mt-3">
+                            <h5 class="side-menu-heading">technicals: </h5>
+                            <div class="span-group">
+                                <span class="featured-badge">bearish</span>
+                                <span class="featured-badge">regn</span>
+                                <span class="featured-badge">tsla</span>
+                                <span class="featured-badge">mcd </span>
+                                <span class="featured-badge">bullish</span>
+                                <span class="featured-badge">uso</span>
+                                <span class="featured-badge">sedg</span>
+                                <span class="featured-badge">enph</span>
+                                <span class="featured-badge">SHOP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-newse mt-5">
+                    <div class="newse-group grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
+                        <div class="newse">
+                            <img src='./assets/Rectangle 182.png' alt='./assets/Rectangle 182.png' />
+                            <p class="newse-p">Amet minim mollit non deserunt ullamco est sit
+                                aliqua dolor do amet sint.</p>
+                        </div>
+                        <div class="newse">
+                            <img src='./assets/Rectangle 183.png' alt='./assets/Rectangle 182.png' />
+                            <p class="newse-p">Amet minim mollit non deserunt ullamco est sit
+                                aliqua dolor do amet sint.</p>
+                        </div>
+                        <div class="newse">
+                            <img src='./assets/Rectangle 184.png' alt='./assets/Rectangle 182.png' />
+                            <p class="newse-p">Amet minim mollit non deserunt ullamco est sit
+                                aliqua dolor do amet sint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newse section ends -->
+
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
